@@ -65,8 +65,5 @@ function remove(title) {
       if (error) return console.error(error.message);
       console.log('Note deleted');
     })
-
-  }
-  )
-
+  })
 }
